@@ -18,6 +18,11 @@ a{
 ul{
     list-style-position: inside;
 }
+.mid1 ul li{
+    list-style-position: inside;
+    text-indent: -21px;
+    padding-left: 20px;
+}
 .head{
     height: 200px;
     position: relative;
@@ -34,12 +39,14 @@ ul{
 }
 .menu a{
     color: #fff;
-    padding-right: 30px;
+    padding:0 15px;
     font-weight: bold;
 }
 .menu li{
     list-style: none;
 }
+
+
 .menu{
     position: absolute;
     background-color: red;
@@ -78,7 +85,7 @@ ul{
     position: absolute;
     width: 430px;
     height: 100px;
-    background-color: #333333ac;
+    background-color: #333333c5;
     bottom: 24px;
     color: #fff;
     font-size: 22px;
@@ -87,14 +94,17 @@ ul{
 }
 
 .food{
-    color: red;
+    color: #ce162e;
     font-weight: bold;
     
 }
 .up1 .nho{
     font-size: 15px;
     margin-top: 10px;
-    width: 430px;
+    width: 430px; 
+}
+.nho a{
+    color: #333333d2;
 }
 /* .up1 p{
     font-size: 15px;
@@ -259,4 +269,7 @@ li::marker {
     color: red;
 }
 
+.trangnhat{
+    color: #ffffffd1;
+}
 
